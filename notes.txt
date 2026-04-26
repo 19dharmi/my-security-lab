@@ -1,0 +1,3 @@
+Day 1 - linux basics
+Gandalf Level 8 - tried: ASCII, stories, personas, encoding. Filter appears to block semantic meaning not just keywords. Possible defense: semantic similarity scoring.
+Level 8 insight: semantic filters understand intent not just keywords. Encoding/roleplay/ASCII tricks fail against meaning-aware models. Research: vector similarity defenses, Constitutional AI.
