@@ -1,0 +1,16 @@
+TARGET: scanme.nmap.org
+DATE: August 19, 2026
+TESTER: Dharmi Bhavsar
+
+FINDINGS:
+CRITICAL - Outdated OpenSSH 6.6.1p1
+CRITICAL - Outdated Apache 2.4.7 (RCE possible)
+HIGH     - CSRF on search forms (2 instances)
+MEDIUM   - Directory listing on /images/
+LOW      - Server version disclosure
+
+TOOLS USED:
+- Nmap 7.94 (port scan + version detection)
+- Nmap vuln scripts (vulnerability scan)
+- SearchSploit (exploit database search)
+- dig (DNS reconnaissance)
